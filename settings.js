@@ -72,8 +72,8 @@ global.gp1 = 'https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b'
 global.comunidad1 = 'https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U'
 global.channel = 'https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b'
 global.channel2 = 'https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b'
-global.md = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot'
-global.correo = 'srperruno13@gmail.com'
+global.md = 'https://github.com/Kevin22Mza/CorajeBot-MD'
+global.correo = 'kevincordoba223322@gmail.com'
 global.cn ='https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
