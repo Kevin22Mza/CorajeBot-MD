@@ -31,16 +31,16 @@ console.log(`Error : ${e}`)
 global.creador = 'Wa.me/5492612721386'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/5492612721386'
-global.namechannel = 'ᰔᩚ ᥡᥙkіᑲ᥆𝗍-mძ • ᥙ⍴ძᥲ𝗍ᥱs ❀'
-global.namechannel2 = 'ᰔᩚ ᥡᥙkіᑲ᥆𝗍-mძ • ᥲ᥎іs᥆s ❀'
-global.namegrupo = 'ᰔᩚ ᥡᥙkіᑲ᥆𝗍-mძ • ᥆𝖿іᥴіᥲᥣ ❀'
-global.namecomu = 'ᰔᩚ ᥡᥙkіᑲ᥆𝗍-mძ • ᥴ᥆mᥙᥒі𝗍ᥡ ❀'
-global.listo = '❀ *Aquí tienes ฅ^•ﻌ•^ฅ*'
+global.namechannel = ' 𝕮𝖔𝖗𝖆𝖏𝖊𝕭𝖔𝖙-𝕸𝕯ᚐ҉ • ᥙ⍴ძᥲ𝗍ᥱs '
+global.namechannel2 = ' 𝕮𝖔𝖗𝖆𝖏𝖊𝕭𝖔𝖙-𝕸𝕯ᚐ҉ • ᥲ᥎іs᥆s '
+global.namegrupo = ' 𝕮𝖔𝖗𝖆𝖏𝖊𝕭𝖔𝖙-𝕸𝕯ᚐ҉• ᥆𝖿іᥴіᥲᥣ '
+global.namecomu = 'ᩚ 𝕮𝖔𝖗𝖆𝖏𝖊𝕭𝖔𝖙-𝕸𝕯ᚐ҉ • ᥴ᥆mᥙᥒі𝗍ᥡ '
+global.listo = ' *Aquí tienes '
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg')
 
 //Ids channel
-global.canalIdM = ["120363322713003916@newsletter", "120363322713003916@newsletter"]
-global.canalNombreM = ["ᰔᩚ ᥡᥙkіᑲ᥆𝗍-mძ • ᥙ⍴ძᥲ𝗍ᥱs ❀", "ᰔᩚ ᥡᥙkіᑲ᥆𝗍-mძ • ᥲ᥎іs᥆s ❀"]
+global.canalIdM = ["120363372222484415@newsletter", "120363372222484415@newsletter"]
+global.canalNombreM = [" • 𝕮𝖔𝖗𝖆𝖏𝖊𝕭𝖔𝖙-𝕸𝕯ᚐ҉• ᥙ⍴ძᥲ𝗍ᥱs ", "• 𝕮𝖔𝖗𝖆𝖏𝖊𝕭𝖔𝖙-𝕸𝕯ᚐ҉• ᥲ᥎іs᥆s ❀"]
 global.channelRD = await getRandomChannel()
 
 //fechas
@@ -67,10 +67,10 @@ global.emoji5 = '✰'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
-global.wait = '❍ Espera un momento, soy lenta...';
-global.waitt = '❍ Espera un momento, soy lenta...';
-global.waittt = '❍ Espera un momento, soy lenta...';
-global.waitttt = '❍ Espera un momento, soy lenta...';
+global.wait = '❍ Espera un momento, soy lento...';
+global.waitt = '❍ Espera un momento, soy lento...';
+global.waittt = '❍ Espera un momento, soy lento...';
+global.waitttt = '❍ Espera un momento, soy lento...';
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U'  
@@ -111,7 +111,7 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [
-'https://tinyurl.com/285a5ejf',
+'https://qu.ax/YbpJy.jpg',
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: packname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
