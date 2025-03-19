@@ -163,7 +163,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 };
 
 handler.help = ['play', 'playvid', 'ytv', 'ytmp4', 'yta', 'play2', 'ytmp3'];
-handler.command = ['play', 'playvid', 'ytv', 'ytmp4', 'yta', 'play2', 'ytmp3'];
+handler.command = ['plaop'];
 handler.tags = ['dl'];
 handler.group = true;
 handler.register = true;
