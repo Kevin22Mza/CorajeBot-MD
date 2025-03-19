@@ -28,9 +28,9 @@ console.log(`Error : ${e}`)
 }}
   
 //creador y otros
-global.creador = 'Wa.me/584120346669'
+global.creador = 'Wa.me/5492612721386'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/584120346669'
+global.asistencia = 'Wa.me/5492612721386'
 global.namechannel = 'ᰔᩚ ᥡᥙkіᑲ᥆𝗍-mძ • ᥙ⍴ძᥲ𝗍ᥱs ❀'
 global.namechannel2 = 'ᰔᩚ ᥡᥙkіᑲ᥆𝗍-mძ • ᥲ᥎іs᥆s ❀'
 global.namegrupo = 'ᰔᩚ ᥡᥙkіᑲ᥆𝗍-mძ • ᥆𝖿іᥴіᥲᥣ ❀'
@@ -73,11 +73,11 @@ global.waittt = '❍ Espera un momento, soy lenta...';
 global.waitttt = '❍ Espera un momento, soy lenta...';
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T'  
-let canal2 = 'https://whatsapp.com/channel/0029VavzewJLikg78gILRn1o'
-var git = 'https://github.com/The-King-Destroy'
-var github = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot' 
-let correo = 'thekingdestroy507@gmail.com'
+var canal = 'https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U'  
+let canal2 = 'https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U'
+var git = 'https://github.com/Kevin22Mza'
+var github = 'https://github.com/Kevin22Mza/CorajeBot-MD' 
+let correo = 'kevincordoba223322@gmail.com'
 
 global.redes = [canal, canal2, git, github, correo].getRandom()
 
