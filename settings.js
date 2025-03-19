@@ -16,24 +16,24 @@ global.botNumber = '' //Ejemplo: 573218138672
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['584120346669', '🜲 Propietario 🜲', true],
-  ['5218715746374'],
-  ['595972157130'],
-  ['5212441357601'],
-  ['50557865603'],
-  ['5216671548329'],
-  ['584148256527'],
-  ['5212431268546'],
-  ['584128382768'],
-  ['5216646666666'],
-  ['5219666666666'],
-  ['593968263524']
+  ['5492612721386', '🜲 Propietario 🜲', true],
+  ['50230076791'],
+  ['584164137403'],
+  ['50558124470'],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''],
+  ['']
 ];
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.mods = []
-global.suittag = ['584120346669'] 
+global.suittag = ['5492612721386'] 
 global.prems = []
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -42,21 +42,21 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.13' 
 global.languaje = 'Español'
 global.vs = '2.2.0'
-global.nameqr = 'YukiBot-MD'
-global.namebot = '✿◟Yυƙι-Sυσυ-Bσƚ◞✿'
+global.nameqr = 'CorajeBot-MD'
+global.namebot = '𝐂𝐨𝐫𝐚𝐣𝐞𝐁𝐨𝐭-𝐌𝐃'
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots' 
 global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ 𝐘𝐮𝐤𝐢-𝐒𝐮𝐨𝐮-𝐁𝐨𝐭 ✰⪜'
-global.botname = 'ᥡᥙkі-sᥙ᥆ᥙ-ᑲ᥆𝗍'
-global.wm = 'ৎ୭࠭͢𝐘𝐮𝐤𝐢_𝐒𝐮𝐨𝐮-𝐁𝐨𝐭ⷭ𓆪͟͞ '
-global.author = 'Made By ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
-global.textbot = 'Yυƙι-Sυσυ-Bσƚ • Powered By ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
-global.etiqueta = 'ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
+global.packname = '⪛✰ 𝐂𝐨𝐫𝐚𝐣𝐞𝐁𝐨𝐭-𝐌𝐃 ✰⪜'
+global.botname = '𝓒𝓸𝓻𝓪𝓳𝓮𝓑𝓸𝓽-𝓜𝓓'
+global.wm = 'ৎ୭࠭͢𝓒𝓸𝓻𝓪𝓳𝓮𝓑𝓸𝓽-𝓜𝓓𓆪͟͞ '
+global.author = 'Made By 𝓚𝓮𝓿𝓲𝓷𝓙𝓼𒆜'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝓚𝓮𝓿𝓲𝓷𝓙𝓼𒆜'
+global.textbot = '𝓒𝓸𝓻𝓪𝓳𝓮𝓑𝓸𝓽-𝓜𝓓 • Powered By 𝓚𝓮𝓿𝓲𝓷𝓙𝓼𒆜'
+global.etiqueta = '𝓚𝓮𝓿𝓲𝓷𝓙𝓼𒆜'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
