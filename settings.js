@@ -51,11 +51,11 @@ global.yukiJadibts = true
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = '⪛✰ 𝐂𝐨𝐫𝐚𝐣𝐞𝐁𝐨𝐭-𝐌𝐃 ✰⪜'
-global.botname = '𝓒𝓸𝓻𝓪𝓳𝓮𝓑𝓸𝓽-𝓜𝓓'
-global.wm = 'ৎ୭࠭͢𝓒𝓸𝓻𝓪𝓳𝓮𝓑𝓸𝓽-𝓜𝓓𓆪͟͞ '
+global.botname = '𝘾𝙤𝙧𝙖𝙟𝙚𝘽𝙤𝙩-𝙈𝘿'
+global.wm = 'ৎ୭࠭͢𝘾𝙤𝙧𝙖𝙟𝙚𝘽𝙤𝙩-𝙈𝘿𓆪͟͞ '
 global.author = 'Made By 𝓚𝓮𝓿𝓲𝓷𝓙𝓼𒆜'
 global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝓚𝓮𝓿𝓲𝓷𝓙𝓼𒆜'
-global.textbot = '𝓒𝓸𝓻𝓪𝓳𝓮𝓑𝓸𝓽-𝓜𝓓 • Powered By 𝓚𝓮𝓿𝓲𝓷𝓙𝓼𒆜'
+global.textbot = '𝘾𝙤𝙧𝙖𝙟𝙚𝘽𝙤𝙩-𝙈𝘿 • Powered By 𝓚𝓮𝓿𝓲𝓷𝓙𝓼𒆜'
 global.etiqueta = '𝓚𝓮𝓿𝓲𝓷𝓙𝓼𒆜'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
