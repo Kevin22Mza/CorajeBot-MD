@@ -1,44 +1,48 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let img = './src/catalogo.jpg'
-let staff = `ᥫ᭡ *EQUIPO DE AYUDANTES* ❀
-✰ *Dueño* ${creador}
-✦ *Bot:* ${botname}
-⚘ *Versión:* ${vs}
-❖ *Libreria:* ${libreria} ${baileys}
+let staff = `✨ *EQUIPO DE AYUDANTES*
+🤖 *Bot:* ${global.botname}
+🌟 *Versión:* ${global.vs}
 
-❍ *Creador:*
+👑 *Propietario:*
 
-ᰔᩚ 𝓚𝓮𝓿𝓲𝓷𝓙𝓼𒆜
-> 🜸 Rol » *Creador*
-> ✧ GitHub » https://github.com/Kevin22Mza
+•   Ҡҽѵìղلʂ
+🤴 *Rol:* Propietario
+📱 *Número:* wa.me/5492612721386
+✨️ *GitHub:* https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD
 
-❒ *Colaboradores:*
+🚀  *Colaboradores:*
 
-ᰔᩚ 𝓜𝓻.𝓢𝓱𝓪𝓭𝓸𝔀666 
-> 🜸 Rol » *Developer*
-> ✧ GitHub » https://github.com/MRSHAD0W666
+•   Mr.Shadow
+💻 *Rol:* Soporte General
+📱 *Número:* Wa.me/50230076791
 
-ᰔᩚ 𝓛𝓮𝓸𝓷𝓮𝓵 𝓞𝓯𝓬
-> 🜸 Rol » *Developer*
-> ✧ GitHub » https://github.com/leoneloficial
+•   Ivan Mods
+🐯 *Rol:* Contribuidor
+📱 *Número:* Wa.me/595992667005
 
-✧ 𝓩𝓪𝓱𝓹𝓴𝓲𝓮𝓵𝓙𝓼
-> 🜸 Rol » *Developer*
-> ✧ GitHub » https://github.com/EnderJs-CreatorGL
-
-ᰔᩚ 
-> 🜸 Rol » *Developer*
-> ✧ GitHub » 
-
-ᰔᩚ 
-> 🜸 Rol » *Mini-Dev* 
-> ✧ GitHub » 
+•   Zaphkiel Power
+🦁 *Rol:* Developer
+📱 *Número:* Wa.me/50558124470
 `
-await conn.sendFile(m.chat, img, 'yuki.jpg', staff.trim(), fkontak)
+await conn.sendFile(m.chat, icons, 'yaemori.jpg', staff.trim(), fkontak, true, {
+contextInfo: {
+'forwardingScore': 200,
+'isForwarded': false,
+externalAdReply: {
+showAdAttribution: true,
+renderLargerThumbnail: false,
+title: `🥷 Developers 👑`,
+body: `✨ Staff Oficial`,
+mediaType: 1,
+sourceUrl: redes,
+thumbnailUrl: icono
+}}
+}, { mentions: m.sender })
+m.react(emoji)
+
 }
-  
 handler.help = ['staff']
-handler.command = ['admins']
+handler.command = ['colaboradores', 'staff']
 handler.register = true
 handler.tags = ['main']
 
