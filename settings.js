@@ -68,13 +68,13 @@ global.avatar = 'https://tinyurl.com/25ru293g'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.gp1 = 'https://chat.whatsapp.com/Ecz881bBgqPIWjDOaKkp7E'
-global.comunidad1 = 'https://chat.whatsapp.com/EwrwcGvpLf1BnMhP3B4axD'
-global.channel = 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T'
-global.channel2 = 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T'
+global.gp1 = 'https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b'
+global.comunidad1 = 'https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U'
+global.channel = 'https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b'
+global.channel2 = 'https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b'
 global.md = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot'
-global.correo = 'thekingdestroy507@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T';
+global.correo = 'srperruno13@gmail.com'
+global.cn ='https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
