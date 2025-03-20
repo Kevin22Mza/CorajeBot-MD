@@ -130,7 +130,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   }
 };
 
-handler.command = handler.help = ['playol'];
+handler.command = handler.help = ['play'];
 handler.tags = ['downloader'];
 handler.group = true;
 
