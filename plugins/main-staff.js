@@ -5,7 +5,7 @@ let staff = `✨ *EQUIPO DE AYUDANTES*
 
 👑 *Propietario:*
 
-•   Ҡҽѵìղلʂ
+•   Ҡҽѵìղلʂ (el es gay)
 🤴 *Rol:* Propietario
 📱 *Número:* wa.me/5492612721386
 ✨️ *GitHub:* https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD
@@ -24,7 +24,7 @@ let staff = `✨ *EQUIPO DE AYUDANTES*
 🦁 *Rol:* Developer
 📱 *Número:* Wa.me/50558124470
 `
-await conn.sendFile(m.chat, icons, 'https://qu.ax/mUdsk.jpg', staff.trim(), fkontak, true, {
+await conn.sendFile(m.chat, icons, 'https://qu.ax/mUdsk.jpg', staff.trim(), fkontak, false, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
