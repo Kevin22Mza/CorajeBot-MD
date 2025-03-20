@@ -29,7 +29,7 @@ contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
 externalAdReply: {
-showAdAttribution: true,
+showAdAttribution: false,
 renderLargerThumbnail: false,
 title: `🥷 Developers 👑`,
 body: `✨ Staff Oficial`,
