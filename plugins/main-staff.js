@@ -8,7 +8,7 @@ let staff = `✨ *EQUIPO DE AYUDANTES*
 •   Ҡҽѵìղلʂ
 🤴 *Rol:* Propietario
 📱 *Número:* wa.me/5492612721386
-✨️ *GitHub:* https://github.com/Kevin22Mza/CorajeBot-MD
+✨️ *GitHub:* https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD
 
 🚀  *Colaboradores:*
 
