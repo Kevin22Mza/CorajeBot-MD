@@ -1,4 +1,4 @@
-let handler = async (m, { conn, command, usedPrefix }) => {
+let handler = async 
 let staff = `✨ *EQUIPO DE AYUDANTES*
 🤖 *Bot:* ${global.botname}
 🌟 *Versión:* ${global.vs}
