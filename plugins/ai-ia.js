@@ -63,33 +63,3 @@ handler.command = ['ia', 'chatgpt', 'luminai']
 handler.group = true
 
 export default handler
-
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
-
-// Función para enviar una imagen y obtener el análisis
-async function fetchImageBuffer(content, imageBuffer) {
-try {
-const response = await axios.post('https://Luminai.my.id', {
-content: content,
-imageBuffer: imageBuffer 
-}, {
-headers: {
-'Content-Type': 'application/json' 
-}})
-return response.data
-} catch (error) {
-console.error('Error:', error)
-throw error }}
-// Función para interactuar con la IA usando prompts
-async function luminsesi(q, username, logic) {
-try {
-const response = await axios.post("https://Luminai.my.id", {
-content: q,
-user: username,
-prompt: logic,
-webSearchMode: false
-})
-return response.data.result
-} catch (error) {
-console.error(`${msm} Error al obtener:`, error)
-throw error }}
