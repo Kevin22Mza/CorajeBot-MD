@@ -55,35 +55,6 @@ Así que, ¿qué más quieres saber sobre mí? [ XEX ]: No te preocupes, no te v
 ${username}
 
 _© 2022-2024 Evolution Global Bots, Todos los derechos reservados_`
-if (isQuotedImage) {
-const q = m.quoted
-const img = await q.download?.()
-if (!img) {
-console.error(`${msm} Error: No image buffer available`)
-return conn.reply(m.chat, '✘ ChatGpT no pudo descargar la imagen.', m)}
-const content = `${emoji} ¿Qué se observa en la imagen?`
-try {
-const imageAnalysis = await fetchImageBuffer(content, img)
-const query = `${emoji} Descríbeme la imagen y detalla por qué actúan así. También dime quién eres`
-const prompt = `${basePrompt}. La imagen que se analiza es: ${imageAnalysis.result}`
-const description = await luminsesi(query, username, prompt)
-await conn.reply(m.chat, description, m)
-} catch {
-await m.react(error)
-await conn.reply(m.chat, '✘ ChatGpT no pudo analizar la imagen.', m)}
-} else {
-if (!text) { return conn.reply(m.chat, `${emoji} Ingrese una petición para que el ChatGpT lo responda.`, m)}
-await m.react(rwait)
-try {
-const { key } = await conn.sendMessage(m.chat, {text: `•••`}, {quoted: m})
-const query = text
-const prompt = `${basePrompt}. Responde lo siguiente: ${query}`
-const response = await luminsesi(query, username, prompt)
-await conn.sendMessage(m.chat, {text: response, edit: key})
-await m.react(done)
-} catch {
-await m.react(error)
-await conn.reply(m.chat, '*No se puede responder* .', m)}}}
 
 handler.help = ['ia', 'chatgpt']
 handler.tags = ['ai']
