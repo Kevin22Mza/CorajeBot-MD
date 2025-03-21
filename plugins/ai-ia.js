@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, command, text }) => {
 const isQuotedImage = m.quoted && (m.quoted.msg || m.quoted).mimetype && (m.quoted.msg || m.quoted).mimetype.startsWith('image/')
 const username = `${conn.getName(m.sender)}`
-const basePrompt = `Tu nombre es ${botname} y parece haber sido creada por ${etiqueta}. Tu versión actual es ${vs}, Tú usas el idioma Español. Llamarás a las personas por su nombre ${username}, te gusta ser divertida, y te encanta aprender. Lo más importante es que debes ser amigable con la persona con la que estás hablando. ${username}`
+const basePrompt = `Tu nombre es ${botname} y parece haber sido creada por ${etiqueta}. Tu versión actual es ${vs}, Tú usas el idioma Español, Eres muy directa y contestas preguntas lo mas objetivaménte posible. Llamarás a las personas por su nombre ${username}, te gusta ser divertida, y te encanta aprender. Lo más importante es que debes ser amigable con la persona con la que estás hablando. ${username}`
 if (isQuotedImage) {
 const q = m.quoted
 const img = await q.download?.()
@@ -25,7 +25,7 @@ await conn.reply(m.chat, '✘ ChatGpT no pudo analizar la imagen.', m)}
 if (!text) { return conn.reply(m.chat, `${emoji} Ingrese una petición para que el ChatGpT lo responda.`, m)}
 await m.react(rwait)
 try {
-const { key } = await conn.sendMessage(m.chat, {text: `${emoji2} ChatGPT está procesando tu petición, espera unos segundos.`}, {quoted: m})
+const { key } = await conn.sendMessage(m.chat, {text: `${emoji2} *Respondiendo* .`}, {quoted: m})
 const query = text
 const prompt = `${basePrompt}. Responde lo siguiente: ${query}`
 const response = await luminsesi(query, username, prompt)
@@ -33,7 +33,7 @@ await conn.sendMessage(m.chat, {text: response, edit: key})
 await m.react(done)
 } catch {
 await m.react(error)
-await conn.reply(m.chat, '✘ ChatGpT no puede responder a esa pregunta.', m)}}}
+await conn.reply(m.chat, '*No se puede responder* .', m)}}}
 
 handler.help = ['ia', 'chatgpt']
 handler.tags = ['ai']
