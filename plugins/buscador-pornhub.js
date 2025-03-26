@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, command, usedPrefix }) => {
   } 
 
   if (!args[0]) {
-    return conn.reply(m.chat, `${emoji} Por favor, ingresé la búsqueda que desea realizar en Pornhub.\nEjemplo: ${usedPrefix + command} con mi prima`, m);
+    return conn.reply(m.chat, `${emoji} Por favor, ingresé la búsqueda que desea realizar en Pornhub.\nEjemplo: ${usedPrefix + command} con mi amig@`, m);
   }
 
   try {
