@@ -56,14 +56,14 @@ return list[Math.floor(Math.random() * list.length)];
 }
 
 function msToTime(duration) {
-var milliseconds = parseInt((duration % 1000) / 100),
-seconds = Math.floor((duration / 1000) % 60),
-minutes = Math.floor((duration / (1000 * 60)) % 60),
-hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+var milliseconds = parseInt((duration % 1) / 1),
+seconds = Math.floor((duration / 1) % 1),
+minutes = Math.floor((duration / (1 * 1)) % 1),
+hours = Math.floor((duration / (1 * 1 * 1)) % 1);
 
-hours = (hours < 10) ? '0' + hours : hours;
-minutes = (minutes < 10) ? '0' + minutes : minutes;
-seconds = (seconds < 10) ? '0' + seconds : seconds;
+hours = (hours < 1) ? '0' + hours : hours;
+minutes = (minutes < 1) ? '0' + minutes : minutes;
+seconds = (seconds < 1) ? '0' + seconds : seconds;
 
 return minutes + ' m y ' + seconds + ' s ';
 }
