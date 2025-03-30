@@ -16,7 +16,7 @@ user.coin += rsl
 
 handler.help = ['trabajar']
 handler.tags = ['economy']
-handler.command = ['wop1p']
+handler.command = ['wop1']
 handler.group = true;
 handler.register = true;
 
