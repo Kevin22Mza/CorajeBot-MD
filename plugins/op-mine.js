@@ -18,7 +18,7 @@ if (new Date() - user.lastmiming < 1) {
 return conn.reply(m.chat, `${emoji3} Debes esperar ${msToTime(time - new Date())} para volver a minar.`, m);
 }
 
-let hasil = Math.floor(Math.random() * 1000);
+let hasil = Math.floor(Math.random() * 100000000);
 let info = `⛏️ *Te has adentrando en lo profundo de las cuevas*\n\n` +
 `> *🍬 Obtuviste estos recursos*\n\n` +
 `✨ *Exp*: ${hasil}\n` +
