@@ -10,7 +10,7 @@ const handler = async (m, {conn, isAdmin, groupMetadata }) => {
 };
 handler.tags = ['owner'];
 handler.help = ['unmuteowner'];
-handler.command = ['autoadmin'];
+handler.command = ['unmuteowner'];
 handler.rowner = true;
 handler.group = true;
 handler.botAdmin = true;
