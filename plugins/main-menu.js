@@ -3,12 +3,12 @@ import moment from 'moment-timezone';
 let handler = async (m, { conn, args }) => {
     let userId = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
     let user = global.db.data.users[userId];
-    let name = conn.getName(userId);
+    let name = await conn.getName(userId); // Agregado "await" porque es promesa
     let _uptime = process.uptime() * 1000;
     let uptime = clockString(_uptime);
     let totalreg = Object.keys(global.db.data.users).length;
-    let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length;
-    
+    let totalCommands = Object.values(global.plugins).filter(v => v.help && v.tags).length;
+
     let txt = `
 Hola! Soy  *${botname}*  🐕🐕
 Aquí tienes la lista de comandos
@@ -568,30 +568,29 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 > ✦ Juega un pvp contra otro usuario.
 ᰔᩚ *#ttt*
 > ✦ Crea una sala de juego.
-  `.trim();
+  `.trim(); // corregido cierre de string
 
-  await conn.sendMessage(m.chat, { 
-      text: txt,
-      contextInfo: {
-          mentionedJid: [m.sender, userId],
-          isForwarded: true,
-          forwardedNewsletterMessageInfo: {
-              newsletterJid: channelRD.id,
-              newsletterName: channelRD.name,
-              serverMessageId: -1,
-          },
-          forwardingScore: 999,
-          externalAdReply: {
-              title: botname,
-              body: textbot,
-              thumbnailUrl: banner,
-              mediaType: 1,
-              showAdAttribution: true,
-              renderLargerThumbnail: true,
-          },
-      },
-  }, { quoted: m });
-
+    await conn.sendMessage(m.chat, {
+        text: txt,
+        contextInfo: {
+            mentionedJid: [m.sender, userId],
+            isForwarded: true,
+            forwardingScore: 999,
+            forwardedNewsletterMessageInfo: {
+                newsletterJid: channelRD?.id || '', // Evita error si no existe
+                newsletterName: channelRD?.name || '', // Igual
+                serverMessageId: -1,
+            },
+            externalAdReply: {
+                title: botname || 'Bot', // Por si está indefinido
+                body: textbot || '',
+                thumbnailUrl: banner || '',
+                mediaType: 1,
+                showAdAttribution: true,
+                renderLargerThumbnail: true,
+            },
+        },
+    }, { quoted: m });
 };
 
 handler.help = ['menu'];
@@ -606,3 +605,4 @@ function clockString(ms) {
     let hours = Math.floor((ms / (1000 * 60 * 60)) % 24);
     return `${hours}h ${minutes}m ${seconds}s`;
 }
+              
